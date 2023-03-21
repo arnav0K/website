@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Clay and Wood</title>
+  <script async defer src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+	<header>
+		<h1>Clay and Wood</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#" class="mx-2">About</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		
+        <section>
+            <div class="container">
+              <h2 class="section-title">Our Products</h2>
+              <div class="product-grid">
+                <div class="product-item">
+                  <img src="a1.png" alt="Product 1">
+                  <h3 class="product-title">Product 1</h3>
+                  <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="product-button">View Details</a>
+                </div>
+                <div class="product-item">
+                  <img src="a2.png" alt="Product 2">
+                  <h3 class="product-title">Product 2</h3>
+                  <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="product-button">View Details</a>
+                </div>
+                <div class="product-item">
+                  <img src="a3.png" alt="Product 3">
+                  <h3 class="product-title">Product 3</h3>
+                  <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="product-button">View Details</a>
+                </div>
+                <div class="product-item">
+                  <img src="a4.png" alt="Product 4">
+                  <h3 class="product-title">Product 4</h3>
+                  <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <a href="#" class="product-button">View Details</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+		
+        <section>
+            <h2>Our Products</h2>
+            <p>Check out our latest products:</p>
+            <ul>
+                <li>
+                    <h3>Pottery</h3>
+                    <p>We offer a variety of pottery items, including bowls, vases, and mugs.</p>
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img src="web2.png" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="a1.png" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="a2.png" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                </li>
+                <li>
+                    <h3>Wooden Decor</h3>
+                    <p>Our wooden decor includes handmade picture frames, candle holders, and more.</p>
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img src="a3.png" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="a4.png" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="a5.png" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section>
+			<h5>About Us</h5>
+			<p>Clay and Wood is a company that specializes in creating unique handcrafted pottery and wooden home decor.</p>
+		</section>
+    </main>
+    
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Clay and Wood. All rights reserved.</p>
+	</footer>
+	
+</body>
+</html>

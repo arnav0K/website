@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Clay and Wood</title>
+    <script async defer src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+        <header>
+            <nav>
+              <div class="nav-left">
+                <a href="#"><img src="clay_and_wood_logo.png" alt="Clay and Wood Logo"></a>
+              </div>
+              <div class="nav-right">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Our Products</a></li>
+                  <li>
+                    <form class="search-form">
+                      <input type="text" name="search" placeholder="Search...">
+                      <button type="submit">Search</button>
+                    </form>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+          
+      
+      
+	<main>
+		<section>
+			<h2>About Us</h2>
+			<p>Clay and Wood is a company that specializes in creating unique handcrafted pottery and wooden home decor.</p>
+		</section>
+		
+        <section>
+            <h2>Our Products</h2>
+            <p>Check out our latest products:</p>
+            <ul>
+                <li>
+                    <h3>Pottery</h3>
+                    <p>We offer a variety of pottery items, including bowls, vases, and mugs.</p>
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img src="pottery1.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="pottery2.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="pottery3.jpg" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                </li>
+                <li>
+                    <h3>Wooden Decor</h3>
+                    <p>Our wooden decor includes handmade picture frames, candle holders, and more.</p>
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img src="wood1.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="wood2.jpg" style="width:100%">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="wood3.jpg" style="width:100%">
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    
+	
+	<footer>
+		<p>&copy; 2023 Clay and Wood. All rights reserved.</p>
+	</footer>
+	
+</body>
+</html>

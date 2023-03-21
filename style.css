@@ -1,0 +1,137 @@
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+nav li {
+	margin-right: 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+main {
+	margin: 2rem auto;
+	width: 90%;
+	max-width: 800px;
+}
+
+section {
+	margin-bottom: 2rem;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+ul {
+	list-style: none;
+}
+
+h3 {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    }
+    
+    /* Next and previous buttons */
+    .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px;
+      }
+      
+      nav .nav-left {
+        display: flex;
+        align-items: center;
+      }
+      
+      nav .nav-left img {
+        height: 40px;
+      }
+      
+      nav .nav-right {
+        display: flex;
+        align-items: center;
+      }
+      
+      nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav li {
+        margin-right: 16px;
+      }
+      
+      nav li:last-child {
+        margin-right: 0;
+        margin-left: auto;
+      }
+      
+      nav form.search-form {
+        display: flex;
+        align-items: center;
+      }
+      
+      nav form.search-form input[type="text"] {
+        border: none;
+        border-radius: 3px;
+        padding: 6px;
+        margin-right: 6px;
+        font-size: 16px;
+      }
+      
+      nav form.search-form button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        padding: 6px 12px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      nav form.search-form button[type="submit"]:hover {
+        background-color: #0069d9;
+      }
+      nav li:last-child {
+        margin-right: 20;
+        margin-left: 0;
+      }
+      
